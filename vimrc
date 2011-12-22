@@ -1,5 +1,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
+call pathogen#infect()
+
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
