@@ -8,6 +8,10 @@ set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 
+"" Solarized color theme
+set background=dark
+colorscheme solarized
+
 "" StatusBar - Powerline
 set laststatus=2                " Always show the statusline
 
