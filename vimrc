@@ -1,6 +1,8 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
+"" Pathogen
 call pathogen#infect()
+call pathogen#helptags()
 
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
@@ -8,9 +10,9 @@ set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 
-"" Solarized color theme
+"" Color theme
 set background=dark
-colorscheme solarized
+colorscheme base16-default
 
 "" StatusBar - Powerline
 set laststatus=2                " Always show the statusline
@@ -20,6 +22,11 @@ set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
 set expandtab                   " use spaces, not tabs (optional)
 set backspace=indent,eol,start  " backspace through everything in insert mode
+set number
+
+"" Format
+set autoindent                  " indent using previous line indentation
+set cursorline                  " highlight current line
 
 "" Searching
 set hlsearch                    " highlight matches

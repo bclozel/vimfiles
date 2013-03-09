@@ -8,9 +8,8 @@ set visualbell
 " Start without the toolbar
 set guioptions-=T
 
-"" Solarized color theme
-set background=light
-colorscheme solarized
+"" Color theme
+colorscheme base16-default
 
 if has("gui_macvim")
   " Fullscreen takes up entire screen
