@@ -12,7 +12,7 @@ filetype plugin indent on       " load file type plugins + indentation
 
 "" Color theme
 set background=dark
-colorscheme base16-default
+colorscheme base16-default-dark
 
 "" StatusBar - Powerline
 set laststatus=2                " Always show the statusline
@@ -22,7 +22,7 @@ set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
 set expandtab                   " use spaces, not tabs (optional)
 set backspace=indent,eol,start  " backspace through everything in insert mode
-set number
+set nonumber
 
 "" Format
 set autoindent                  " indent using previous line indentation
