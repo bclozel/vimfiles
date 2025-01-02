@@ -1,9 +1,3 @@
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-
-"" Pathogen
-call pathogen#infect()
-call pathogen#helptags()
-
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
@@ -13,6 +7,7 @@ filetype plugin indent on       " load file type plugins + indentation
 "" Color theme
 set background=dark
 colorscheme base16-default-dark
+let base16colorspace=256
 
 "" StatusBar - Powerline
 set laststatus=2                " Always show the statusline
@@ -36,3 +31,4 @@ set smartcase                   " ... unless they contain at least one capital l
 
 " change <leader> key to ,
 let mapleader = ","
+
